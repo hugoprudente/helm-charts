@@ -6,6 +6,7 @@ entries:
     created: "2023-07-21T22:33:38.675947168+02:00"
     description: Foundry Virtual Tabletop
     digest: e34bba71c34a3053e45d59cfb107a4975597d258ff67ac931efca06d551f1859
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -28,6 +29,7 @@ entries:
     created: "2023-07-21T22:33:38.673350745+02:00"
     description: Foundry Virtual Tabletop
     digest: 60b16c7fa31a284dad3d44c897f645181cb79634d882ac280febf28528fd1a3e
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -50,6 +52,7 @@ entries:
     created: "2023-07-21T22:33:38.670766606+02:00"
     description: Foundry Virtual Tabletop
     digest: b9d8011422fd03b7ad4575a36171c4491cd4425f1a25b6cc428c0f9e628aaaf3
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -72,6 +75,7 @@ entries:
     created: "2023-07-21T22:33:38.665968751+02:00"
     description: Foundry Virtual Tabletop
     digest: 92207ffd27d492a80a8381fb51194328d02312c2a9b272760422c2b6d0e3401a
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -94,6 +98,7 @@ entries:
     created: "2023-07-21T22:33:38.660251086+02:00"
     description: Foundry Virtual Tabletop
     digest: 13c1aeb675673b03f8d182a2c3745d1448e2fa18caffb31740858adbe4600873
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -116,6 +121,7 @@ entries:
     created: "2023-07-21T22:33:38.65710519+02:00"
     description: Foundry Virtual Tabletop
     digest: ee884a2db28cf888cd9236670c668b7fc3039b3d54583b111d13e7c9c9994a73
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -138,6 +144,7 @@ entries:
     created: "2023-07-21T22:33:38.654269459+02:00"
     description: Foundry Virtual Tabletop
     digest: cbd8b67c7c1cf3653f42d2820992b685893fea7cde73ea69b621e9444f8104d0
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -160,6 +167,7 @@ entries:
     created: "2023-07-21T22:33:38.651436122+02:00"
     description: Foundry Virtual Tabletop
     digest: 05233d04c1c61439b7b899e099d4b6e57ee5d3aedbcf00d42ab34f80a5f29038
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -182,6 +190,7 @@ entries:
     created: "2023-07-21T22:33:38.648791415+02:00"
     description: Foundry Virtual Tabletop
     digest: ea560b1c90f04e6dafae07fde1013aa14ffc0905d65bb986aa0d4433993002f8
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
@@ -204,6 +213,7 @@ entries:
     created: "2023-07-21T22:33:38.668385721+02:00"
     description: Foundry Virtual Tabletop
     digest: 6314cd6aae9674d6eef028d5185f59a1ca0c9f6c679f0460ea2a32919e3ea1ea
+    icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/develop/assets/logo.png
     keywords:
     - game
     - server
