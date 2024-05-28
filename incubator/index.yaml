@@ -2,8 +2,31 @@ apiVersion: v1
 entries:
   foundry-vtt:
   - apiVersion: v2
+    appVersion: v11.309
+    created: "2024-05-28T20:45:38.719409989+02:00"
+    description: Foundry Virtual Tabletop
+    digest: e5a26d93b51603a8d3386c807b653fb3669d528b45858895ff48887ec1d79f2e
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - foundry-vtt-11.309.0.tgz
+    version: 11.309.0
+  - apiVersion: v2
     appVersion: v11.308
-    created: "2024-05-28T20:37:01.6723687+02:00"
+    created: "2024-05-28T20:45:38.717188572+02:00"
     description: Foundry Virtual Tabletop
     digest: 053c11919c914a0c2867530aab9854aa6b8afd7c61d363ee7edbf51ae4488531
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -26,7 +49,7 @@ entries:
     version: 11.308.0
   - apiVersion: v2
     appVersion: v11.307
-    created: "2024-05-28T20:37:01.669704793+02:00"
+    created: "2024-05-28T20:45:38.714746529+02:00"
     description: Foundry Virtual Tabletop
     digest: a97660b5a43ce27e8efea149135eb989e53644818856d8a7dbdf149b52022774
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -49,7 +72,7 @@ entries:
     version: 11.307.0
   - apiVersion: v2
     appVersion: v11.306
-    created: "2024-05-28T20:37:01.667051883+02:00"
+    created: "2024-05-28T20:45:38.712214271+02:00"
     description: Foundry Virtual Tabletop
     digest: e34bba71c34a3053e45d59cfb107a4975597d258ff67ac931efca06d551f1859
     keywords:
@@ -71,7 +94,7 @@ entries:
     version: 11.306.0
   - apiVersion: v2
     appVersion: v10.303
-    created: "2024-05-28T20:37:01.664264521+02:00"
+    created: "2024-05-28T20:45:38.708844527+02:00"
     description: Foundry Virtual Tabletop
     digest: 60b16c7fa31a284dad3d44c897f645181cb79634d882ac280febf28528fd1a3e
     keywords:
@@ -93,7 +116,7 @@ entries:
     version: 10.303.0
   - apiVersion: v2
     appVersion: v9.280
-    created: "2024-05-28T20:37:01.658997579+02:00"
+    created: "2024-05-28T20:45:38.706450575+02:00"
     description: Foundry Virtual Tabletop
     digest: b9d8011422fd03b7ad4575a36171c4491cd4425f1a25b6cc428c0f9e628aaaf3
     keywords:
@@ -115,7 +138,7 @@ entries:
     version: 0.9.280-a
   - apiVersion: v2
     appVersion: v9.280
-    created: "2024-05-28T20:37:01.654047453+02:00"
+    created: "2024-05-28T20:45:38.702394473+02:00"
     description: Foundry Virtual Tabletop
     digest: 92207ffd27d492a80a8381fb51194328d02312c2a9b272760422c2b6d0e3401a
     keywords:
@@ -137,7 +160,7 @@ entries:
     version: 0.2.17
   - apiVersion: v2
     appVersion: v9.269
-    created: "2024-05-28T20:37:01.650928175+02:00"
+    created: "2024-05-28T20:45:38.700240978+02:00"
     description: Foundry Virtual Tabletop
     digest: 13c1aeb675673b03f8d182a2c3745d1448e2fa18caffb31740858adbe4600873
     keywords:
@@ -159,7 +182,7 @@ entries:
     version: 0.2.16
   - apiVersion: v2
     appVersion: v9.268
-    created: "2024-05-28T20:37:01.64841456+02:00"
+    created: "2024-05-28T20:45:38.698023505+02:00"
     description: Foundry Virtual Tabletop
     digest: ee884a2db28cf888cd9236670c668b7fc3039b3d54583b111d13e7c9c9994a73
     keywords:
@@ -181,7 +204,7 @@ entries:
     version: 0.2.15
   - apiVersion: v2
     appVersion: v9.266
-    created: "2024-05-28T20:37:01.645953064+02:00"
+    created: "2024-05-28T20:45:38.695917404+02:00"
     description: Foundry Virtual Tabletop
     digest: cbd8b67c7c1cf3653f42d2820992b685893fea7cde73ea69b621e9444f8104d0
     keywords:
@@ -203,7 +226,7 @@ entries:
     version: 0.2.14
   - apiVersion: v2
     appVersion: v9.255
-    created: "2024-05-28T20:37:01.643316694+02:00"
+    created: "2024-05-28T20:45:38.693810961+02:00"
     description: Foundry Virtual Tabletop
     digest: 05233d04c1c61439b7b899e099d4b6e57ee5d3aedbcf00d42ab34f80a5f29038
     keywords:
@@ -225,7 +248,7 @@ entries:
     version: 0.2.13
   - apiVersion: v2
     appVersion: 0.8.9
-    created: "2024-05-28T20:37:01.639857606+02:00"
+    created: "2024-05-28T20:45:38.691461985+02:00"
     description: Foundry Virtual Tabletop
     digest: ea560b1c90f04e6dafae07fde1013aa14ffc0905d65bb986aa0d4433993002f8
     keywords:
@@ -247,7 +270,7 @@ entries:
     version: 0.2.10
   - apiVersion: v2
     appVersion: 0.7.10
-    created: "2024-05-28T20:37:01.656570613+02:00"
+    created: "2024-05-28T20:45:38.704333368+02:00"
     description: Foundry Virtual Tabletop
     digest: 6314cd6aae9674d6eef028d5185f59a1ca0c9f6c679f0460ea2a32919e3ea1ea
     keywords:
@@ -267,4 +290,4 @@ entries:
     urls:
     - foundry-vtt-0.2.7.tgz
     version: 0.2.7
-generated: "2024-05-28T20:37:01.636400493+02:00"
+generated: "2024-05-28T20:45:38.68843991+02:00"
