@@ -1,0 +1,41 @@
+# helm-charts (Foundry VTT Helm repository)
+
+> https://hugoprudente.github.io/helm-charts/incubator
+
+Helm repository publishing the `foundry-vtt` chart for Kubernetes. Chart sources live in https://github.com/hugoprudente/charts under `incubator/foundry-vtt`. Each GitHub Pages release corresponds to a `foundry-*` tag on a `foundryvtt/*` track branch in that repository.
+
+## Install
+
+- Repository: https://hugoprudente.github.io/helm-charts/incubator/
+- Add repo: `helm repo add foundry-vtt https://hugoprudente.github.io/helm-charts/incubator/`
+- Chart: `foundry-vtt`
+- Index: https://hugoprudente.github.io/helm-charts/incubator/index.yaml
+
+## Latest chart versions
+
+- "0.3"
+- 14.368.2
+- 13.351.1
+- 12.343.1
+- 12.324.0
+- 11.315.2
+- 11.313.0
+- 11.311.0
+- 11.306.0
+- 10.312.0
+- 10.303.0
+- 9.280.0
+- 8.9.0
+- 0.2.16
+- 0.2.15
+
+## Key files
+
+- [README.md](https://hugoprudente.github.io/helm-charts/README.md): human-oriented overview and release commands
+- [incubator/index.yaml](https://hugoprudente.github.io/helm-charts/incubator/index.yaml): Helm repository index
+- [incubator/artifacthub-repo.yml](https://hugoprudente.github.io/helm-charts/incubator/artifacthub-repo.yml): Artifact Hub metadata
+
+## Source
+
+- Charts: https://github.com/hugoprudente/charts
+- Felddy container: https://github.com/felddy/foundryvtt-docker
