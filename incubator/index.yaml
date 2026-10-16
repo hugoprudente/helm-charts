@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   foundry-vtt:
   - apiVersion: v2
+    appVersion: v14.369
+    created: "2026-10-16T10:54:35.488932+01:00"
+    description: Foundry Virtual Tabletop
+    digest: a7271e5f573752a784738e6a14b1f8e49ec6c829ea57e76724bc03382edc2526
+    home: https://foundryvtt.com
+    icon: https://github.com/hugoprudente/charts/raw/foundryvtt/14.x/incubator/foundry-vtt/icon.png
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    - email: tradiuz@gmail.com
+      name: tradiuz
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/foundryvtt/14.x/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-14.369.0.tgz
+    version: 14.369.0
+  - apiVersion: v2
     appVersion: v14.368
-    created: "2026-10-16T09:39:34.21581+01:00"
+    created: "2026-10-16T10:54:35.487535+01:00"
     description: Foundry Virtual Tabletop
     digest: 5623039b83d22feaebd5f5ce4e1476bd578e714aed884c4903995a855d1cff15
     home: https://foundryvtt.com
@@ -29,7 +55,7 @@ entries:
     version: 14.368.2
   - apiVersion: v2
     appVersion: v13.351
-    created: "2026-10-16T09:39:34.213786+01:00"
+    created: "2026-10-16T10:54:35.485608+01:00"
     description: Foundry Virtual Tabletop
     digest: 958fbcc03a685b923e858b409ef1ab88248e736378ba1bcb2cd187fdaa747b84
     home: https://foundryvtt.com
@@ -55,7 +81,7 @@ entries:
     version: 13.351.1
   - apiVersion: v2
     appVersion: v12.343
-    created: "2026-10-16T09:39:34.212081+01:00"
+    created: "2026-10-16T10:54:35.483754+01:00"
     description: Foundry Virtual Tabletop
     digest: 057a4c5c0be83cb16bc26142cedc5505391ac4b5d69180a29ed46378d4929025
     home: https://foundryvtt.com
@@ -81,7 +107,7 @@ entries:
     version: 12.343.1
   - apiVersion: v2
     appVersion: v12.343
-    created: "2026-10-16T09:39:34.210059+01:00"
+    created: "2026-10-16T10:54:35.481257+01:00"
     description: Foundry Virtual Tabletop
     digest: e6cbf940aeecbde24f2eb767cba5eddeea80913a3787b48ccc4e720b985fdb89
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -104,7 +130,7 @@ entries:
     version: 12.343.0
   - apiVersion: v2
     appVersion: v12.324
-    created: "2026-10-16T09:39:34.207596+01:00"
+    created: "2026-10-16T10:54:35.479773+01:00"
     description: Foundry Virtual Tabletop
     digest: a73479bd1f9cef0fb84391de49be23da3f2bb439ec0b02cc9b1f761aca3078d4
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -127,7 +153,7 @@ entries:
     version: 12.324.0
   - apiVersion: v2
     appVersion: "11.315"
-    created: "2026-10-16T09:39:34.206171+01:00"
+    created: "2026-10-16T10:54:35.469375+01:00"
     description: Foundry Virtual Tabletop
     digest: affc70ce9f711b58e4385719632950f84ba7ca11a72b1a7dff44ff50b54c7ef6
     home: https://foundryvtt.com
@@ -151,7 +177,7 @@ entries:
     version: 11.315.2
   - apiVersion: v2
     appVersion: v11.315
-    created: "2026-10-16T09:39:34.204177+01:00"
+    created: "2026-10-16T10:54:35.467574+01:00"
     description: Foundry Virtual Tabletop
     digest: d65af93d75bbe6d8aaac85d783100bfdd0298a9d40c725248e38503b50b9e589
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -174,7 +200,7 @@ entries:
     version: 11.315.0
   - apiVersion: v2
     appVersion: v11.313
-    created: "2026-10-16T09:39:34.202233+01:00"
+    created: "2026-10-16T10:54:35.465923+01:00"
     description: Foundry Virtual Tabletop
     digest: 949706bd5147e447291e9d555b2cb63e8e415711b60b545ae888d4665b96b2cc
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -197,7 +223,7 @@ entries:
     version: 11.313.0
   - apiVersion: v2
     appVersion: v11.311
-    created: "2026-10-16T09:39:34.200054+01:00"
+    created: "2026-10-16T10:54:35.463615+01:00"
     description: Foundry Virtual Tabletop
     digest: 64e80a0e9694b9143ee649b9e6b03b856f66cb43deb44ac0728537c00745ceea
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -220,7 +246,7 @@ entries:
     version: 11.311.0
   - apiVersion: v2
     appVersion: v11.309
-    created: "2026-10-16T09:39:34.198454+01:00"
+    created: "2026-10-16T10:54:35.461784+01:00"
     description: Foundry Virtual Tabletop
     digest: e5a26d93b51603a8d3386c807b653fb3669d528b45858895ff48887ec1d79f2e
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -243,7 +269,7 @@ entries:
     version: 11.309.0
   - apiVersion: v2
     appVersion: v11.308
-    created: "2026-10-16T09:39:34.196775+01:00"
+    created: "2026-10-16T10:54:35.460383+01:00"
     description: Foundry Virtual Tabletop
     digest: 053c11919c914a0c2867530aab9854aa6b8afd7c61d363ee7edbf51ae4488531
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -266,7 +292,7 @@ entries:
     version: 11.308.0
   - apiVersion: v2
     appVersion: v11.307
-    created: "2026-10-16T09:39:34.195676+01:00"
+    created: "2026-10-16T10:54:35.45918+01:00"
     description: Foundry Virtual Tabletop
     digest: a97660b5a43ce27e8efea149135eb989e53644818856d8a7dbdf149b52022774
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -289,7 +315,7 @@ entries:
     version: 11.307.0
   - apiVersion: v2
     appVersion: v11.306
-    created: "2026-10-16T09:39:34.19443+01:00"
+    created: "2026-10-16T10:54:35.45777+01:00"
     description: Foundry Virtual Tabletop
     digest: a8fb96f35145722168e5e4b672088943422f9dbd4e72c8c69e190f407013b0e9
     keywords:
@@ -311,7 +337,7 @@ entries:
     version: 11.306.0
   - apiVersion: v2
     appVersion: "10.312"
-    created: "2026-10-16T09:39:34.193067+01:00"
+    created: "2026-10-16T10:54:35.456186+01:00"
     description: Foundry Virtual Tabletop
     digest: b2139db5ef048b65977f7cec136fbe2c19ead04e745f2c278e01facba20c5e1f
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v10.303.0/assets/logo.png
@@ -334,7 +360,7 @@ entries:
     version: 10.312.0
   - apiVersion: v2
     appVersion: v10.303
-    created: "2026-10-16T09:39:34.191907+01:00"
+    created: "2026-10-16T10:54:35.454886+01:00"
     description: Foundry Virtual Tabletop
     digest: 8ee4d22118d15f69bb420273e277dcf3bd6df011695f17c949b080d60e8b6659
     keywords:
@@ -356,7 +382,7 @@ entries:
     version: 10.303.0
   - apiVersion: v2
     appVersion: "9.280"
-    created: "2026-10-16T09:39:34.219438+01:00"
+    created: "2026-10-16T10:54:35.493656+01:00"
     description: Foundry Virtual Tabletop
     digest: cedb13124dbe8ae731ccac054c71f940b2ddf4278cabd8cc9450b4ea5e19276b
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v9.280.0/assets/logo.png
@@ -379,7 +405,7 @@ entries:
     version: 9.280.0
   - apiVersion: v2
     appVersion: 0.8.9
-    created: "2026-10-16T09:39:34.218097+01:00"
+    created: "2026-10-16T10:54:35.491815+01:00"
     description: Foundry Virtual Tabletop
     digest: 0b1f8704904c7f7195def524d9d33beb16d2fdbd61f13d6b3141c5eb80bf4da7
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v0.8.9/assets/logo.png
@@ -402,7 +428,7 @@ entries:
     version: 8.9.0
   - apiVersion: v2
     appVersion: 0.7.10
-    created: "2026-10-16T09:39:34.216774+01:00"
+    created: "2026-10-16T10:54:35.490388+01:00"
     description: Foundry Virtual Tabletop
     digest: d7823c02bde885cf3ca269eeef73d6116c57c99e258ccf6949deff429ac7fe50
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v0.7.10%2Ba/assets/logo.png
@@ -425,7 +451,7 @@ entries:
     version: 7.10.0
   - apiVersion: v2
     appVersion: v9.280
-    created: "2026-10-16T09:39:34.190227+01:00"
+    created: "2026-10-16T10:54:35.453473+01:00"
     description: Foundry Virtual Tabletop
     digest: b9d8011422fd03b7ad4575a36171c4491cd4425f1a25b6cc428c0f9e628aaaf3
     keywords:
@@ -447,7 +473,7 @@ entries:
     version: 0.9.280-a
   - apiVersion: v2
     appVersion: 0.7.10
-    created: "2026-10-16T09:39:34.188483+01:00"
+    created: "2026-10-16T10:54:35.451794+01:00"
     description: Foundry Virtual Tabletop
     digest: 17619f4b3f4ddba9a5198189632153f6468bc0febdf9ad39d7c1cbcb21b60c35
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v0.7.10%2Ba/assets/logo.png
@@ -470,7 +496,7 @@ entries:
     version: "0.3"
   - apiVersion: v2
     appVersion: v9.280
-    created: "2026-10-16T09:39:34.183584+01:00"
+    created: "2026-10-16T10:54:35.446158+01:00"
     description: Foundry Virtual Tabletop
     digest: 92207ffd27d492a80a8381fb51194328d02312c2a9b272760422c2b6d0e3401a
     keywords:
@@ -492,7 +518,7 @@ entries:
     version: 0.2.17
   - apiVersion: v2
     appVersion: v9.269
-    created: "2026-10-16T09:39:34.182482+01:00"
+    created: "2026-10-16T10:54:35.444931+01:00"
     description: Foundry Virtual Tabletop
     digest: d41de6488eee23498227db08a8e9ccc91cad49eefbc3088766dda9d8f1549e71
     keywords:
@@ -514,7 +540,7 @@ entries:
     version: 0.2.16
   - apiVersion: v2
     appVersion: v9.268
-    created: "2026-10-16T09:39:34.181029+01:00"
+    created: "2026-10-16T10:54:35.439171+01:00"
     description: Foundry Virtual Tabletop
     digest: 5e06fedc0e0f453cb7189809d49f789748b876a8089768cb85e82e035abfaa72
     keywords:
@@ -536,7 +562,7 @@ entries:
     version: 0.2.15
   - apiVersion: v2
     appVersion: v9.266
-    created: "2026-10-16T09:39:34.178809+01:00"
+    created: "2026-10-16T10:54:35.434332+01:00"
     description: Foundry Virtual Tabletop
     digest: cbd8b67c7c1cf3653f42d2820992b685893fea7cde73ea69b621e9444f8104d0
     keywords:
@@ -558,7 +584,7 @@ entries:
     version: 0.2.14
   - apiVersion: v2
     appVersion: v9.255
-    created: "2026-10-16T09:39:34.177368+01:00"
+    created: "2026-10-16T10:54:35.432957+01:00"
     description: Foundry Virtual Tabletop
     digest: 37919379b70c508a5b22a31c78a35573784c4a0b267610218b2aaada2eb37e15
     keywords:
@@ -580,7 +606,7 @@ entries:
     version: 0.2.13
   - apiVersion: v2
     appVersion: "9.245"
-    created: "2026-10-16T09:39:34.176098+01:00"
+    created: "2026-10-16T10:54:35.429865+01:00"
     description: Foundry Virtual Tabletop
     digest: f65b211d9269fba3b1791fd095e70fc87f5932da5cb7adf41bc66c92af3416fd
     keywords:
@@ -602,7 +628,7 @@ entries:
     version: 0.2.12
   - apiVersion: v2
     appVersion: "9.242"
-    created: "2026-10-16T09:39:34.174657+01:00"
+    created: "2026-10-16T10:54:35.428448+01:00"
     description: Foundry Virtual Tabletop
     digest: dc1b99ff69f29eb5b61dc5f82b39a765da5ef098cb1ac00c72e1e6a8559b2a9c
     keywords:
@@ -624,7 +650,7 @@ entries:
     version: 0.2.11
   - apiVersion: v2
     appVersion: 0.8.9
-    created: "2026-10-16T09:39:34.172918+01:00"
+    created: "2026-10-16T10:54:35.421416+01:00"
     description: Foundry Virtual Tabletop
     digest: ea560b1c90f04e6dafae07fde1013aa14ffc0905d65bb986aa0d4433993002f8
     keywords:
@@ -646,7 +672,7 @@ entries:
     version: 0.2.10
   - apiVersion: v2
     appVersion: 0.8.8
-    created: "2026-10-16T09:39:34.187395+01:00"
+    created: "2026-10-16T10:54:35.450044+01:00"
     description: Foundry Virtual Tabletop
     digest: 7be20049aa76fdc36eaff03ec53f8a6be07fe7271e3820c38cdfcb53dfc951a7
     keywords:
@@ -668,7 +694,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 0.8.7
-    created: "2026-10-16T09:39:34.186217+01:00"
+    created: "2026-10-16T10:54:35.448744+01:00"
     description: Foundry Virtual Tabletop
     digest: ccfa4ee1f72718ebe259f91faf43b9b35ed1ec9b6e289536678c5eea40fac83a
     keywords:
@@ -690,7 +716,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 0.7.10
-    created: "2026-10-16T09:39:34.185025+01:00"
+    created: "2026-10-16T10:54:35.447539+01:00"
     description: Foundry Virtual Tabletop
     digest: 12c902acba812899bf98c4f50ec1d0ae381741cacdc0aafad2cb660d3bb9adbc
     keywords:
@@ -710,4 +736,4 @@ entries:
     urls:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.7.tgz
     version: 0.2.7
-generated: "2026-10-16T09:39:34.170934+01:00"
+generated: "2026-10-16T10:54:35.419056+01:00"

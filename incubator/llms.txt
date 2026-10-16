@@ -14,6 +14,7 @@ Helm repository publishing the `foundry-vtt` chart for Kubernetes. Chart sources
 ## Latest chart versions
 
 - "0.3"
+- 14.369.0
 - 14.368.2
 - 13.351.1
 - 12.343.1
@@ -27,7 +28,6 @@ Helm repository publishing the `foundry-vtt` chart for Kubernetes. Chart sources
 - 11.308.0
 - 11.307.0
 - 11.306.0
-- 10.312.0
 
 ## Key files
 
