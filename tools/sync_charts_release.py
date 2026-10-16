@@ -12,10 +12,26 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Repo layout: foundry/{tools,charts,helm-charts}/...
-_FOUNDRY_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_CHARTS_REPO = _FOUNDRY_ROOT / "charts"
-DEFAULT_HELM_CHARTS = _FOUNDRY_ROOT / "helm-charts"
+def _default_paths() -> tuple[Path, Path]:
+    """Resolve charts source repo and helm-charts (GitHub Pages) repo from script location."""
+    script = Path(__file__).resolve()
+    tools_dir = script.parent
+    # .../helm-charts/tools/sync_charts_release.py
+    if (tools_dir.parent / "incubator").is_dir():
+        helm_charts = tools_dir.parent
+        charts = helm_charts.parent / "charts"
+        return charts, helm_charts
+    # .../foundry/tools/sync_charts_release.py (or any tools/ next to helm-charts/)
+    workspace = tools_dir.parent
+    helm_candidate = workspace / "helm-charts"
+    if (helm_candidate / "incubator").is_dir():
+        return workspace / "charts", helm_candidate
+    return workspace / "charts", workspace / "helm-charts"
+
+
+_DEFAULT_CHARTS, _DEFAULT_HELM = _default_paths()
+DEFAULT_CHARTS_REPO = _DEFAULT_CHARTS
+DEFAULT_HELM_CHARTS = _DEFAULT_HELM
 CHART_PATH_IN_SOURCE = "incubator/foundry-vtt"
 CHART_NAME = "foundry-vtt"
 # Release tags in hugoprudente/charts (one tag → one packaged chart).
@@ -348,12 +364,13 @@ Helm repository publishing the `foundry-vtt` chart for Kubernetes. Chart sources
 
 def cmd_package(args: argparse.Namespace) -> None:
     charts_repo = Path(args.charts_repo).resolve()
-    helm_root = Path(args.helm_charts).resolve()
+    helm_root = Path(args.helm_charts).expanduser().resolve()
     incubator = helm_root / "incubator"
-    if not helm_root.is_dir():
+    if not incubator.is_dir():
         raise SystemExit(
-            f"helm-charts repo not found at {helm_root} "
-            f"(pass --helm-charts or run from foundry/ with helm-charts/ alongside charts/)"
+            f"helm-charts incubator not found at {incubator}\n"
+            f"  Pass the GitHub Pages repo root: --helm-charts /path/to/helm-charts\n"
+            f"  Defaults: charts={DEFAULT_CHARTS_REPO}, helm-charts={DEFAULT_HELM_CHARTS}"
         )
     print(f"source: {charts_repo}", file=sys.stderr)
     print(f"output: {incubator}/", file=sys.stderr)
@@ -435,9 +452,19 @@ def cmd_release(args: argparse.Namespace) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--charts-repo", type=Path, default=DEFAULT_CHARTS_REPO)
+    parser.add_argument(
+        "--charts-repo",
+        type=Path,
+        default=DEFAULT_CHARTS_REPO,
+        help=f"Source git repo with foundry-* tags (default: {DEFAULT_CHARTS_REPO})",
+    )
     parser.add_argument("--charts-remote", default="https://github.com/hugoprudente/charts.git")
-    parser.add_argument("--helm-charts", type=Path, default=DEFAULT_HELM_CHARTS)
+    parser.add_argument(
+        "--helm-charts",
+        type=Path,
+        default=DEFAULT_HELM_CHARTS,
+        help=f"GitHub Pages repo root containing incubator/ (default: {DEFAULT_HELM_CHARTS})",
+    )
     parser.add_argument("--page-url", default=REPO_PAGE_URL)
     parser.add_argument("--force", action="store_true", help="re-package even if .tgz exists")
     parser.add_argument(
