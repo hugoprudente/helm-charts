@@ -3,7 +3,7 @@ entries:
   foundry-vtt:
   - apiVersion: v2
     appVersion: v14.368
-    created: "2026-10-15T13:45:16.520399+01:00"
+    created: "2026-10-16T09:23:53.756494+01:00"
     description: Foundry Virtual Tabletop
     digest: 5623039b83d22feaebd5f5ce4e1476bd578e714aed884c4903995a855d1cff15
     home: https://foundryvtt.com
@@ -29,7 +29,7 @@ entries:
     version: 14.368.2
   - apiVersion: v2
     appVersion: v13.351
-    created: "2026-10-15T13:45:16.518939+01:00"
+    created: "2026-10-16T09:23:53.754976+01:00"
     description: Foundry Virtual Tabletop
     digest: 958fbcc03a685b923e858b409ef1ab88248e736378ba1bcb2cd187fdaa747b84
     home: https://foundryvtt.com
@@ -55,7 +55,7 @@ entries:
     version: 13.351.1
   - apiVersion: v2
     appVersion: v12.343
-    created: "2026-10-15T13:45:16.517508+01:00"
+    created: "2026-10-16T09:23:53.753404+01:00"
     description: Foundry Virtual Tabletop
     digest: 057a4c5c0be83cb16bc26142cedc5505391ac4b5d69180a29ed46378d4929025
     home: https://foundryvtt.com
@@ -80,10 +80,33 @@ entries:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-12.343.1.tgz
     version: 12.343.1
   - apiVersion: v2
-    appVersion: v12.324
-    created: "2026-10-15T13:45:16.515998+01:00"
+    appVersion: v12.343
+    created: "2026-10-16T09:23:53.751899+01:00"
     description: Foundry Virtual Tabletop
-    digest: 52616b673dd13b5b0e549d290477653b72e5831dbec803455805ffcfb7f3fa73
+    digest: e6cbf940aeecbde24f2eb767cba5eddeea80913a3787b48ccc4e720b985fdb89
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-12.343.0.tgz
+    version: 12.343.0
+  - apiVersion: v2
+    appVersion: v12.324
+    created: "2026-10-16T09:23:53.749405+01:00"
+    description: Foundry Virtual Tabletop
+    digest: a73479bd1f9cef0fb84391de49be23da3f2bb439ec0b02cc9b1f761aca3078d4
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
     keywords:
     - game
@@ -104,7 +127,7 @@ entries:
     version: 12.324.0
   - apiVersion: v2
     appVersion: "11.315"
-    created: "2026-10-15T13:45:16.5143+01:00"
+    created: "2026-10-16T09:23:53.74797+01:00"
     description: Foundry Virtual Tabletop
     digest: affc70ce9f711b58e4385719632950f84ba7ca11a72b1a7dff44ff50b54c7ef6
     home: https://foundryvtt.com
@@ -127,8 +150,31 @@ entries:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-11.315.2.tgz
     version: 11.315.2
   - apiVersion: v2
+    appVersion: v11.315
+    created: "2026-10-16T09:23:53.746506+01:00"
+    description: Foundry Virtual Tabletop
+    digest: d65af93d75bbe6d8aaac85d783100bfdd0298a9d40c725248e38503b50b9e589
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-11.315.0.tgz
+    version: 11.315.0
+  - apiVersion: v2
     appVersion: v11.313
-    created: "2026-10-15T13:45:16.513055+01:00"
+    created: "2026-10-16T09:23:53.745127+01:00"
     description: Foundry Virtual Tabletop
     digest: 949706bd5147e447291e9d555b2cb63e8e415711b60b545ae888d4665b96b2cc
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -151,7 +197,7 @@ entries:
     version: 11.313.0
   - apiVersion: v2
     appVersion: v11.311
-    created: "2026-10-15T13:45:16.511742+01:00"
+    created: "2026-10-16T09:23:53.744003+01:00"
     description: Foundry Virtual Tabletop
     digest: 64e80a0e9694b9143ee649b9e6b03b856f66cb43deb44ac0728537c00745ceea
     icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
@@ -173,8 +219,77 @@ entries:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-11.311.0.tgz
     version: 11.311.0
   - apiVersion: v2
+    appVersion: v11.309
+    created: "2026-10-16T09:23:53.742846+01:00"
+    description: Foundry Virtual Tabletop
+    digest: e5a26d93b51603a8d3386c807b653fb3669d528b45858895ff48887ec1d79f2e
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-11.309.0.tgz
+    version: 11.309.0
+  - apiVersion: v2
+    appVersion: v11.308
+    created: "2026-10-16T09:23:53.740801+01:00"
+    description: Foundry Virtual Tabletop
+    digest: 053c11919c914a0c2867530aab9854aa6b8afd7c61d363ee7edbf51ae4488531
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-11.308.0.tgz
+    version: 11.308.0
+  - apiVersion: v2
+    appVersion: v11.307
+    created: "2026-10-16T09:23:53.739724+01:00"
+    description: Foundry Virtual Tabletop
+    digest: a97660b5a43ce27e8efea149135eb989e53644818856d8a7dbdf149b52022774
+    icon: https://artifacthub.io/image/3e8ce5cf-7afe-4032-bae2-500b17e64b11@1x
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-11.307.0.tgz
+    version: 11.307.0
+  - apiVersion: v2
     appVersion: v11.306
-    created: "2026-10-15T13:45:16.510556+01:00"
+    created: "2026-10-16T09:23:53.738539+01:00"
     description: Foundry Virtual Tabletop
     digest: a8fb96f35145722168e5e4b672088943422f9dbd4e72c8c69e190f407013b0e9
     keywords:
@@ -196,7 +311,7 @@ entries:
     version: 11.306.0
   - apiVersion: v2
     appVersion: "10.312"
-    created: "2026-10-15T13:45:16.509235+01:00"
+    created: "2026-10-16T09:23:53.737453+01:00"
     description: Foundry Virtual Tabletop
     digest: b2139db5ef048b65977f7cec136fbe2c19ead04e745f2c278e01facba20c5e1f
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v10.303.0/assets/logo.png
@@ -219,7 +334,7 @@ entries:
     version: 10.312.0
   - apiVersion: v2
     appVersion: v10.303
-    created: "2026-10-15T13:45:16.508111+01:00"
+    created: "2026-10-16T09:23:53.736321+01:00"
     description: Foundry Virtual Tabletop
     digest: 8ee4d22118d15f69bb420273e277dcf3bd6df011695f17c949b080d60e8b6659
     keywords:
@@ -241,7 +356,7 @@ entries:
     version: 10.303.0
   - apiVersion: v2
     appVersion: "9.280"
-    created: "2026-10-15T13:45:16.522558+01:00"
+    created: "2026-10-16T09:23:53.758742+01:00"
     description: Foundry Virtual Tabletop
     digest: cedb13124dbe8ae731ccac054c71f940b2ddf4278cabd8cc9450b4ea5e19276b
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v9.280.0/assets/logo.png
@@ -264,7 +379,7 @@ entries:
     version: 9.280.0
   - apiVersion: v2
     appVersion: 0.8.9
-    created: "2026-10-15T13:45:16.521423+01:00"
+    created: "2026-10-16T09:23:53.75755+01:00"
     description: Foundry Virtual Tabletop
     digest: 0b1f8704904c7f7195def524d9d33beb16d2fdbd61f13d6b3141c5eb80bf4da7
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v0.8.9/assets/logo.png
@@ -286,8 +401,30 @@ entries:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-8.9.0.tgz
     version: 8.9.0
   - apiVersion: v2
+    appVersion: v9.280
+    created: "2026-10-16T09:23:53.732247+01:00"
+    description: Foundry Virtual Tabletop
+    digest: b9d8011422fd03b7ad4575a36171c4491cd4425f1a25b6cc428c0f9e628aaaf3
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.9.280-a.tgz
+    version: 0.9.280-a
+  - apiVersion: v2
     appVersion: 0.7.10
-    created: "2026-10-15T13:45:16.506427+01:00"
+    created: "2026-10-16T09:23:53.728004+01:00"
     description: Foundry Virtual Tabletop
     digest: 17619f4b3f4ddba9a5198189632153f6468bc0febdf9ad39d7c1cbcb21b60c35
     icon: https://raw.githubusercontent.com/felddy/foundryvtt-docker/v0.7.10%2Ba/assets/logo.png
@@ -309,8 +446,30 @@ entries:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.3.tgz
     version: "0.3"
   - apiVersion: v2
+    appVersion: v9.280
+    created: "2026-10-16T09:23:53.722348+01:00"
+    description: Foundry Virtual Tabletop
+    digest: 92207ffd27d492a80a8381fb51194328d02312c2a9b272760422c2b6d0e3401a
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.17.tgz
+    version: 0.2.17
+  - apiVersion: v2
     appVersion: v9.269
-    created: "2026-10-15T13:45:16.496056+01:00"
+    created: "2026-10-16T09:23:53.720505+01:00"
     description: Foundry Virtual Tabletop
     digest: d41de6488eee23498227db08a8e9ccc91cad49eefbc3088766dda9d8f1549e71
     keywords:
@@ -332,7 +491,7 @@ entries:
     version: 0.2.16
   - apiVersion: v2
     appVersion: v9.268
-    created: "2026-10-15T13:45:16.494899+01:00"
+    created: "2026-10-16T09:23:53.718719+01:00"
     description: Foundry Virtual Tabletop
     digest: 5e06fedc0e0f453cb7189809d49f789748b876a8089768cb85e82e035abfaa72
     keywords:
@@ -353,8 +512,30 @@ entries:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.15.tgz
     version: 0.2.15
   - apiVersion: v2
+    appVersion: v9.266
+    created: "2026-10-16T09:23:53.717197+01:00"
+    description: Foundry Virtual Tabletop
+    digest: cbd8b67c7c1cf3653f42d2820992b685893fea7cde73ea69b621e9444f8104d0
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.14.tgz
+    version: 0.2.14
+  - apiVersion: v2
     appVersion: v9.255
-    created: "2026-10-15T13:45:16.493703+01:00"
+    created: "2026-10-16T09:23:53.716003+01:00"
     description: Foundry Virtual Tabletop
     digest: 37919379b70c508a5b22a31c78a35573784c4a0b267610218b2aaada2eb37e15
     keywords:
@@ -376,7 +557,7 @@ entries:
     version: 0.2.13
   - apiVersion: v2
     appVersion: "9.245"
-    created: "2026-10-15T13:45:16.492321+01:00"
+    created: "2026-10-16T09:23:53.714798+01:00"
     description: Foundry Virtual Tabletop
     digest: f65b211d9269fba3b1791fd095e70fc87f5932da5cb7adf41bc66c92af3416fd
     keywords:
@@ -398,7 +579,7 @@ entries:
     version: 0.2.12
   - apiVersion: v2
     appVersion: "9.242"
-    created: "2026-10-15T13:45:16.48501+01:00"
+    created: "2026-10-16T09:23:53.713416+01:00"
     description: Foundry Virtual Tabletop
     digest: dc1b99ff69f29eb5b61dc5f82b39a765da5ef098cb1ac00c72e1e6a8559b2a9c
     keywords:
@@ -419,8 +600,30 @@ entries:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.11.tgz
     version: 0.2.11
   - apiVersion: v2
+    appVersion: 0.8.9
+    created: "2026-10-16T09:23:53.712068+01:00"
+    description: Foundry Virtual Tabletop
+    digest: ea560b1c90f04e6dafae07fde1013aa14ffc0905d65bb986aa0d4433993002f8
+    keywords:
+    - game
+    - server
+    - vtt
+    - virtualtabletop
+    - foundryvtt
+    - foundry
+    maintainers:
+    - email: hugo.kenshin@gmail.com
+      name: hugoprudente
+    name: foundry-vtt
+    sources:
+    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
+    type: application
+    urls:
+    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.10.tgz
+    version: 0.2.10
+  - apiVersion: v2
     appVersion: 0.8.8
-    created: "2026-10-15T13:45:16.505244+01:00"
+    created: "2026-10-16T09:23:53.726105+01:00"
     description: Foundry Virtual Tabletop
     digest: 7be20049aa76fdc36eaff03ec53f8a6be07fe7271e3820c38cdfcb53dfc951a7
     keywords:
@@ -442,7 +645,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 0.8.7
-    created: "2026-10-15T13:45:16.504326+01:00"
+    created: "2026-10-16T09:23:53.724918+01:00"
     description: Foundry Virtual Tabletop
     digest: ccfa4ee1f72718ebe259f91faf43b9b35ed1ec9b6e289536678c5eea40fac83a
     keywords:
@@ -464,7 +667,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 0.7.10
-    created: "2026-10-15T13:45:16.503405+01:00"
+    created: "2026-10-16T09:23:53.723569+01:00"
     description: Foundry Virtual Tabletop
     digest: 12c902acba812899bf98c4f50ec1d0ae381741cacdc0aafad2cb660d3bb9adbc
     keywords:
@@ -484,130 +687,4 @@ entries:
     urls:
     - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.7.tgz
     version: 0.2.7
-  - apiVersion: v2
-    appVersion: 0.7.9
-    created: "2026-10-15T13:45:16.502503+01:00"
-    description: Foundry Virtual Tabletop
-    digest: 8e3aae9db27f0783e2464dfe63515837c30db5b121dc5a7bebe808d240971206
-    keywords:
-    - game
-    - server
-    - vtt
-    - virtualtabletop
-    - foundryvtt
-    - foundry
-    maintainers:
-    - email: hugo.kenshin@gmail.com
-      name: hugoprudente
-    name: foundry-vtt
-    sources:
-    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
-    type: application
-    urls:
-    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.6.tgz
-    version: 0.2.6
-  - apiVersion: v2
-    appVersion: 0.7.9
-    created: "2026-10-15T13:45:16.501605+01:00"
-    description: Foundry Virtual Tabletop
-    digest: e604f2f5fdb7c5a9f87e662eb9e6a00442a1520d46ef3260b983703c922a74f9
-    keywords:
-    - game
-    - server
-    - vtt
-    - virtualtabletop
-    - foundryvtt
-    - foundry
-    maintainers:
-    - email: hugo.kenshin@gmail.com
-      name: hugoprudente
-    name: foundry-vtt
-    sources:
-    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
-    type: application
-    urls:
-    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.5.tgz
-    version: 0.2.5
-  - apiVersion: v2
-    appVersion: 0.7.9
-    created: "2026-10-15T13:45:16.500649+01:00"
-    description: Foundry Virtual Tabletop
-    digest: 7a1519945d0e5f8989b9569ecc5c366c06e23c164ed3010a36afa9308619f036
-    keywords:
-    - game
-    - server
-    - vtt
-    - virtualtabletop
-    - foundryvtt
-    - foundry
-    maintainers:
-    - email: hugo.kenshin@gmail.com
-      name: hugoprudente
-    name: foundry-vtt
-    sources:
-    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
-    type: application
-    urls:
-    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.4.tgz
-    version: 0.2.4
-  - apiVersion: v2
-    appVersion: 0.7.7
-    created: "2026-10-15T13:45:16.499712+01:00"
-    description: Foundry Virtual Tabletop
-    digest: 8013074f6759bfd3b70bd6d067d5f61fb632a74c4ba97590f937b0e7cd242bce
-    keywords:
-    - game
-    - server
-    - vtt
-    - virtualtabletop
-    - foundryvtt
-    - foundry
-    maintainers:
-    - email: hugo.kenshin@gmail.com
-      name: hugoprudente
-    name: foundry-vtt
-    sources:
-    - https://github.com/hugoprudente/charts/tree/main/incubator/foundry-vtt
-    type: application
-    urls:
-    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.3.tgz
-    version: 0.2.3
-  - apiVersion: v2
-    appVersion: 0.7.5
-    created: "2026-10-15T13:45:16.497615+01:00"
-    description: Foundry Virtual Tabletop
-    digest: 9658a03afef3b51229ca6ce07b6aded179af3fed19054e21c7241ccd76fcf4db
-    keywords:
-    - game
-    - server
-    - vtt
-    - virtualtabletop
-    maintainers:
-    - email: hugo.kenshin@gmail.com
-      name: hugoprudente
-    name: foundry-vtt
-    sources:
-    - https://github.com/hugoprudente/foundry-vtt
-    type: application
-    urls:
-    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.2.2.tgz
-    version: 0.2.2
-  - apiVersion: v2
-    appVersion: 0.7.5
-    created: "2026-10-15T13:45:16.484029+01:00"
-    description: Foundry Virtual Tabletop
-    digest: 0a72e8ad16b53700335b192d4048c7f494dd25ea4de43a6862d62d1f9b9a2d25
-    keywords:
-    - game
-    - server
-    maintainers:
-    - email: hugo.kenshin@gmail.com
-      name: hugoprudente
-    name: foundry-vtt
-    sources:
-    - https://github.com/hugoprudente/foundry-vtt
-    type: application
-    urls:
-    - https://hugoprudente.github.io/helm-charts/incubator/foundry-vtt-0.1.6.tgz
-    version: 0.1.6
-generated: "2026-10-15T13:45:16.482837+01:00"
+generated: "2026-10-16T09:23:53.710794+01:00"
